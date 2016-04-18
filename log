@@ -3258,3 +3258,218 @@ AT+CIPSEND
 
 > GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
 CLOSED
+
+CLOSED
+AT+CIPSHUT
+
+SHUT OK
+failureAT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIFSR
+
+100.91.129.106
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+OK
+
+CONNECT OK
+AT+CIPSEND
+
+> AT+CIPSEND
+
+> GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
+CLOSED
+
+CLOSED
+AT+CIPSHUT
+
+SHUT OK
+AT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIFSR
+
+100.102.72.166
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+OK
+
+CONNECT OK
+AT+CIPSEND
+
+> AT+CIPSEND
+
+> GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
+SEND OK
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, Phant-Private-Key
+Content-Type: text/plain
+SEND OK
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, Phant-Private-Key
+Content-Type: text/plainAT+CIPSHUT
+{'rainfall': '0.0', 'tempdht22': '21.4', 'sealevelpressure': '89881.00', 'altitude': '999.47', 'humidity': '50.6', 'pressure': '89879.00', 'windspeed': '0.0', 'tempbmp': '22.50', 'stationname': 'beaglebone', 'winddirection': '135', 'bbbtimestamp': 'Tue Apr 19 02:24:09 IST 2016'}rainfall=0.0&tempdht22=21.4&sealevelpressure=89881.00&altitude=999.47&humidity=50.6&pressure=89879.00&windspeed=0.0&tempbmp=22.50&stationname=beaglebone&winddirection=135&bbbtimestamp=Tue+Apr+19+02%3A24%3A09+IST+2016AT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIFSR
+
+100.102.80.171
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+OK
+
+CONNECT OK
+AT+CIPSEND
+
+> AT+CIPSEND
+
+> GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
+SEND OK
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, Phant-Private-Key
+Content-Type: text/plain
+SEND OK
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, Phant-Private-Key
+Content-Type: text/plainAT+CIPSHUT
+success{'rainfall': '0.0', 'tempdht22': '21.4', 'sealevelpressure': '89881.00', 'altitude': '999.56', 'humidity': '50.6', 'pressure': '89881.00', 'windspeed': '0.0', 'tempbmp': '22.60', 'stationname': 'beaglebone', 'winddirection': '135', 'bbbtimestamp': 'Tue Apr 19 02:27:08 IST 2016'}rainfall=0.0&tempdht22=21.4&sealevelpressure=89881.00&altitude=999.56&humidity=50.6&pressure=89881.00&windspeed=0.0&tempbmp=22.60&stationname=beaglebone&winddirection=135&bbbtimestamp=Tue+Apr+19+02%3A27%3A08+IST+2016AT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIFSR
+
+100.91.183.84
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+OK
+
+CONNECT OK
+AT+CIPSEND
+
+> AT+CIPSEND
+
+> GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
+CLOSED
+
+CLOSED
+AT+CIPSHUT
+
+SHUT OK
+failureAT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIFSR
+
+100.66.167.163
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+OK
+
+CONNECT OK
+AT+CIPSEND
+
+> AT+CIPSEND
+
+> GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
+CLOSED
+
+CLOSED
+AT+CIPSHUT
+
+SHUT OK
+AT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+ERROR
+AT+CIPSEND
+
+ERROR
+AT+CIPSEND
+
+ERROR
+GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mBAT+CIPSHUT
+
+SHUT OK
+AT+CIPSHUT
+
+SHUT OK
+AT+CSTT="airtelgprs.com","",""
+
+OK
+AT+CIICR
+
+OK
+AT+CIFSR
+
+100.101.40.130
+AT+CIPSTART="TCP","54.86.132.254","80"
+
+OK
+
+CONNECT OK
+AT+CIPSEND
+
+> AT+CIPSEND
+
+> GET /input/o8yy2GDWnXTG8EJrzj14?private_key=yz77mB
+SEND OK
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, Phant-Private-Key
+Content-Type: text/plain
+SEND OK
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, Phant-Private-Key
+Content-Type: text/plainAT+CIPSHUT
+{'rainfall': '0.0', 'tempdht22': '21.5', 'sealevelpressure': '89876.00', 'altitude': '999.47', 'humidity': '50.7', 'pressure': '89881.00', 'windspeed': '0.0', 'tempbmp': '22.40', 'stationname': 'beaglebone', 'winddirection': '135', 'bbbtimestamp': 'Tue Apr 19 02:30:04 IST 2016'}rainfall=0.0&tempdht22=21.5&sealevelpressure=89876.00&altitude=999.47&humidity=50.7&pressure=89881.00&windspeed=0.0&tempbmp=22.40&stationname=beaglebone&winddirection=135&bbbtimestamp=Tue+Apr+19+02%3A30%3A04+IST+2016AT+CIPSHUT
+
+SHUT OK
