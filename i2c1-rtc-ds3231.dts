@@ -1,0 +1,30 @@
+/dts-v1/;
+/plugin/;
+/* Source: http://blog.fraggod.net/2015/11/25/replacing-built-in-rtc-with-i2c-battery-backed-one-on-beaglebone-black-from-boot.html*/
+/* dtc -O dtb -o /lib/firmware/BB-RTC-02-00A0.dtbo -b0 i2c2-rtc-ds3231.dts */
+/* bone_capemgr.enable_partno=BB-RTC-02 */
+/* https://github.com/beagleboard/bb.org-overlays */
+
+/ {
+  compatible = "ti,beaglebone", "ti,beaglebone-black", "ti,beaglebone-green";
+  part-number = "BB-RTC-02";
+  version = "00A0";
+
+  fragment@0 {
+    target = <&i2c1>;
+
+    __overlay__ {
+      pinctrl-names = "default";
+      pinctrl-0 = <&i2c1_pins>;
+      status = "okay";
+      clock-frequency = <100000>;
+      #address-cells = <0x1>;
+      #size-cells = <0x0>;
+
+      rtc: rtc@68 {
+        compatible = "dallas,ds3231";
+        reg = <0x68>;
+      };
+    };
+  };
+};
